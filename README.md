@@ -115,6 +115,11 @@ These are the options for launching a session against a non-local Appium server:
 It should be straightforward to get set up with any of these options. Simply
 enter your details in the input fields provided.
 
+Before proceeding further, when using Appium Desktop 1.3.2 which uses Appium 1.7 or higher, you need to run following commands else you will encounter issues while launching application in simulator.
+
+cd /Applications/Appium.app/Contents/Resources/app
+npm install
+
 #### Desired Capabilities
 
 Desired capabilities are how you configure your Appium session. They tell the
